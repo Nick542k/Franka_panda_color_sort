@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: franka_description
+    relative_path: robots/fer/fer.urdf.xacro
+    xacro_args: arm_id:=fer hand:=true gazebo:=true ros2_control:=true
+  srdf:
+    relative_path: config/fer.srdf
+  package_settings:
+    author_name: ""
+    author_email: ""
+    generated_timestamp: 1785343986
